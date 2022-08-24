@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto";
+}
+
+.headerhero-container {
+  background-color: #6382ae;
+}
+
+nav {
+  margin-bottom: 0;
+  padding: 20px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+nav .header-links a {
+  font-size: 18px;
+  color: #F9FAF8;
+  padding: 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: hotpink;
+}/*# sourceMappingURL=style.css.map */
