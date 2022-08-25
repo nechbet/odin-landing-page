@@ -66,4 +66,32 @@ nav a:hover {
   padding-right: 0;
   padding-left: 100px;
   padding-top: 50px;
+}
+
+.img-container h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 48px;
+}
+.img-container .card-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 200px;
+  padding-right: 100px;
+}
+.img-container .card-container div {
+  padding: 1em;
+}
+.img-container .card-container p {
+  font-weight: 300;
+  text-align: center;
+}
+.img-container .card-container img {
+  border-radius: 5px;
+  border-color: #000000;
+  border-style: solid;
+  margin-left: 30px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
