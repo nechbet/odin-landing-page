@@ -74,6 +74,7 @@ nav a:hover {
   margin-top: 50px;
   margin-bottom: 50px;
   font-size: 48px;
+  color: #122a2e;
 }
 .img-container .card-container {
   display: flex;
@@ -94,4 +95,44 @@ nav a:hover {
   border-style: solid;
   margin-left: 30px;
   cursor: pointer;
+}
+
+.quote-container {
+  background-color: #ebb496;
+  padding: 1em;
+  font-size: 48px;
+  font-style: italic;
+  text-align: center;
+  font-weight: 50;
+}
+
+.signup {
+  padding: 5em;
+}
+
+.signup-container {
+  background-color: #122a2e;
+  padding: 2em;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  color: #ebb496;
+}
+.signup-container button {
+  padding: 10px 50px;
+  border-radius: 5px;
+  color: #ebb496;
+  background-color: #000000;
+}
+
+footer {
+  background-color: #122a2e;
+  padding: 50px 100px;
+}
+footer p {
+  text-align: center;
+  font-weight: 50px;
 }/*# sourceMappingURL=style.css.map */
