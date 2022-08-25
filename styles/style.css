@@ -48,21 +48,22 @@ nav a:hover {
   font-size: 18px;
   color: #ebb496;
 }
-.hero-container .hero-img img {
-  height: 300px;
-  width: 500px;
-  padding-right: 0;
-  padding-left: 100px;
-  padding-top: 50px;
-}
-.hero-container .hero-btn {
+.hero-container .text-section button {
   background-color: #000000;
   padding: 10px 40px;
   color: #ebb496;
   border: none;
   border-radius: 7px;
   font-size: 15px;
+  cursor: pointer;
 }
-.hero-container .hero-btn .hero-btn:hover {
+.hero-container .text-section button:hover {
   color: #eb5e28;
+}
+.hero-container .hero-img img {
+  height: 300px;
+  width: 500px;
+  padding-right: 0;
+  padding-left: 100px;
+  padding-top: 50px;
 }/*# sourceMappingURL=style.css.map */

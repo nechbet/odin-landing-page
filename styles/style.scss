@@ -52,6 +52,18 @@ nav {
             font-size: 18px;
             color: #ebb496;
         };
+        button {
+            background-color: #000000;
+            padding: 10px 40px;
+            color: #ebb496;
+            border: none;
+            border-radius: 7px;
+            font-size: 15px;
+            cursor: pointer;
+        };  
+         button:hover {
+                color: #eb5e28;
+             };
     };
 
     .hero-img img {
@@ -62,19 +74,5 @@ nav {
         padding-top: 50px;
     };
 
-    .hero-btn {
-        background-color: #000000;
-        padding: 10px 40px;
-        color: #ebb496;
-        border: none;
-        border-radius: 7px;
-        font-size: 15px;
-
-        .hero-btn:hover {
-          color: #eb5e28;
-        }
-        
-
-    };
-
 };
+
