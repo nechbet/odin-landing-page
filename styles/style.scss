@@ -63,7 +63,8 @@ nav {
             cursor: pointer;
         };  
         button:hover {
-                color: #eb5e28;
+            color: #eb5e28;
+            transform: scale(1.1);
         };
     };
 
@@ -108,6 +109,9 @@ nav {
             cursor: pointer;
 
         };  
+        img:hover {
+            transform: scale(1.1);
+        };
     };
 };
 
@@ -136,11 +140,18 @@ nav {
     color: #ebb496;
 
     button {
-        padding: 10px 50px;
-        border-radius: 5px;
-        color: #ebb496;
         background-color: #000000;
-    };
+        padding: 10px 40px;
+        color: #ebb496;
+        border: none;
+        border-radius: 7px;
+        font-size: 15px;
+        cursor: pointer;
+    }; 
+        button:hover {
+            color: #eb5e28;
+            transform: scale(1.1);
+        };
 };
 
 footer {
