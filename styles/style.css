@@ -30,7 +30,7 @@ nav a:hover {
 
 .hero-container {
   padding: 200px;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
   display: flex;
   justify-content: space-between;
@@ -103,6 +103,8 @@ nav a:hover {
 .quote-container {
   background-color: #ebb496;
   padding: 1em;
+  padding-left: 200px;
+  padding-right: 200px;
   font-size: 48px;
   font-style: italic;
   text-align: center;
